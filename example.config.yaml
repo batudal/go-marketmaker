@@ -1,0 +1,15 @@
+admin:
+  max_live_instances: 1 # units
+  instance_interval: 300 # seconds
+  max_total_bots: 1 # units
+
+bot:
+  address:
+    router: ""
+    factory: ""
+    weth: ""
+    token: ""
+  config:
+    chainid: 1
+    swap_interval: 30 # seconds
+    max_swaps: 4
